@@ -19,8 +19,8 @@ async def start(bot, update):
 @bughunter0.on_message(
     (
         filters.command(["report"]) |
-        filters.regex("@admins") |
-        filters.regex("@admin")
+        filters.regex("@Kodalinemusic") |
+        filters.regex("@Kodalinemusic")
     ) &
     filters.group
 )
